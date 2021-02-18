@@ -1,0 +1,30 @@
+.form-box {
+    @include flex(center);
+    min-height: 100vh;
+    // background-color: $color-white;
+    background-color: #d6d6d6;
+
+    .login {
+        width: 500px;
+        min-height: 400px;
+        background-color: $color-white;
+        box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        font-size: 2rem;
+        padding: 30px 50px;
+        &__heading {
+            font-size: 3rem;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        &-body {
+        }
+        .btn {
+            &--submit {
+                width: 100%;
+                background: green;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

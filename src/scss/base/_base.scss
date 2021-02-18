@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: sans-serif;
+}
+:root {
+    --color-page-background: #{$color-white};
+    --color-sidebar: #f5f6fa;
+    --color-text: #{$color-black};
+    --bg-modal-exit: rgba(36, 35, 35, 0.2);
+    --rgba-bsd: #{$rgba-bsd};
+    --bg-skeleton: #ddd;
+}
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: $color-black;
+}
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.d-none {
+    display: none !important;
+}

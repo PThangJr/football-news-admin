@@ -1,0 +1,32 @@
+.news-card {
+  font-size: 1.6rem;
+}
+.news-card__heading {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.news-card .news {
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.news-card .news-top {
+  position: relative;
+}
+.news-card .news-top__thumbnail {
+  width: 100%;
+  object-fit: cover;
+}
+.news-card .news-top__topic {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  padding: 3px;
+  background: yellow;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  color: var(--color-text);
+  font-weight: bold;
+}

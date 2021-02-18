@@ -1,0 +1,10 @@
+.header {
+    display: block;
+    background: var(--color-page-background);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}

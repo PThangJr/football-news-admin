@@ -1,0 +1,42 @@
+.icon {
+    margin: 0 8px;
+}
+.input-group {
+    @include flex(flex-start);
+    align-items: flex-start;
+    flex-direction: column;
+    .input-label {
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .input-field {
+        font-size: 1.6rem;
+        padding: 10px;
+        width: 300px;
+        border-radius: 3px;
+        outline: none;
+        border: 1px solid rgb(151, 151, 151);
+        width: 100%;
+    }
+    .form-message {
+    }
+}
+.select-group {
+    margin-top: 20px;
+    .select-field {
+        font-size: 1.6rem;
+        padding: 5px 12px;
+    }
+    .select-label {
+        font-weight: bold;
+        margin-right: 15px;
+    }
+}
+
+.form-message {
+    font-size: 1.4rem;
+    color: red;
+    font-style: italic;
+    margin-left: 10px;
+}

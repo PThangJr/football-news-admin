@@ -1,0 +1,19 @@
+.actions {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  min-height: 80vh;
+}
+.actions .ck.ck-editor {
+  width: 100%;
+}
+.actions .ck-editor__editable_inline {
+  min-height: 200px;
+}
+.actions .form-option {
+  margin: 20px auto 0 auto;
+}
+.actions .form-option-btn {
+  margin: 0 auto;
+  display: inline-block;
+}

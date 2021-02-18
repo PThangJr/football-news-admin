@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.swal2-container div {
+    font-size: 1.6rem ;
+}
+.Toastify {
+    font-size: 1.6rem;
+}

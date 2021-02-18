@@ -1,0 +1,21 @@
+@mixin flex($jus) {
+    display: flex;
+    align-items: center;
+    @if $jus {
+        justify-content: $jus;
+    }
+}
+@mixin margin($pos, $length) {
+    margin-#{$pos}: $length;
+}
+@for $i from 2 through 40 {
+    .mt-#{$i} {
+        @include margin(top, #{$i}px);
+    }
+}
+
+@for $i from 2 through 40 {
+    .mb-#{$i} {
+        @include margin(bottom, #{$i}px);
+    }
+}
