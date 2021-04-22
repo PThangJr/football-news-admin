@@ -1,0 +1,38 @@
+.mr-8 {
+    margin-right: 8px;
+}
+
+.results {
+    display: flex;
+    align-items: center;
+
+    .clubs {
+        display: flex;
+        align-items: center;
+
+        .home {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+
+        .name {
+            width: 120px;
+            display: inline-block;
+            text-align: right;
+            text-justify: auto;
+        }
+    }
+
+
+
+    .logo {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: red;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+}
