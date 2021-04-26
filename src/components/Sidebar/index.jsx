@@ -65,6 +65,12 @@ const Sidebar = () => {
             className={classes.iconItem}
             awesomeIcon={<i className="fas fa-video"></i>}
           />
+          <CustomLink
+            label="Results"
+            to="/results"
+            className={classes.iconItem}
+            awesomeIcon={<i className="fas fa-clipboard"></i>}
+          />
         </List>
         <Divider />
         <List></List>

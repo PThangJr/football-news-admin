@@ -176,10 +176,26 @@ const CreateNew = () => {
                   />
                 ))}
               </FormGroup>
-              <FormControl fullWidth>
-                <TextField id="outlined-basic" label="Source" variant="outlined" multiline inputRef={sourceRef} />
-                <FormHelperText id="my-helper-text">Nhập nguồn bài viết</FormHelperText>
-              </FormControl>
+              <Grid container spacing={3}>
+                <Grid item lg={6}>
+                  <FormControl fullWidth>
+                    <TextField id="outlined-basic" label="Source" variant="outlined" multiline inputRef={sourceRef} />
+                    <FormHelperText id="my-helper-text">Nhập nguồn bài viết</FormHelperText>
+                  </FormControl>
+                </Grid>
+                <Grid item lg={6}>
+                  <FormControl fullWidth>
+                    <TextField
+                      id="outlined-basic"
+                      label="Video Id"
+                      variant="outlined"
+                      multiline
+                      inputRef={originalRef}
+                    />
+                    <FormHelperText id="my-helper-text">Nhập Video Id</FormHelperText>
+                  </FormControl>
+                </Grid>
+              </Grid>
             </Grid>
             <Grid item lg={7}>
               <FormControl fullWidth>

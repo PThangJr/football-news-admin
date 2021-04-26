@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '64px',
     display: 'block',
     width: '100%',
+    padding: '20px 5px',
   },
   appBar: {
     [theme.breakpoints.up('sm')]: {
